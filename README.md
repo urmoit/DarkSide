@@ -1,7 +1,7 @@
 # DarkSide
 Alan walker Darkside
 
-words
+lyrics
 
 We're not in love
 We share no stories
