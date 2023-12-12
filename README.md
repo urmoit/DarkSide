@@ -39,7 +39,7 @@ MakeWindow({
   }
 ]]
 
-local Tab = MainTab({Name = "Main"})
+local MainTab = NewTab({Name = "Main"})
 
 AddToggle(MainTab, {
   Name = "test",
