@@ -1,7 +1,7 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
 MakeWindow({
   Hub = {
-    Title = "REDz HUB",
+    Title = "Urmoit HUB",
     Animation = "by : redz9999"
   },
   Key = {
@@ -21,7 +21,7 @@ MakeWindow({
 
 --[[
   Hub = {
-    Title = "REDz HUB" -- <string> Titulo do seu script
+    Title = "Urmoit HUB" -- <string> Titulo do seu script
     Animation = "by : redz9999" -- <string> Adiciona um texto na animacão do seu HUB
   },
   Key = {
@@ -38,3 +38,13 @@ MakeWindow({
     }
   }
 ]]
+
+local Tab = MainTab({Name = "Main"})
+
+AddToggle(MainTab, {
+  Name = "test",
+  Default = false,
+  Callback = function(Value)
+    print(Value)
+  end
+})
