@@ -39,9 +39,9 @@ MakeWindow({
   }
 ]]
 
-local MainTab = NewTab({Name = "Main"})
+local Tab = NewTab({Name = "Main"})
 
-AddToggle(MainTab, {
+AddToggle(Tab, {
   Name = "test",
   Default = false,
   Callback = function(Value)
